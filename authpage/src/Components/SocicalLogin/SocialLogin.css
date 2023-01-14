@@ -1,0 +1,16 @@
+.socialLogin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.red{
+    color: red;
+}
+
+#google-icon{
+  color: red;
+  width: 100px;
+}

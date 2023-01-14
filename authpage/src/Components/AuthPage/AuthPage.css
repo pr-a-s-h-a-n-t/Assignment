@@ -1,0 +1,79 @@
+.auth-container {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 428px;
+  max-height: 926px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+/* Auth Page Image */
+.logo-container {
+  width: 198px;
+  height: 198px;
+  margin-top: 45px;
+  margin-left: 116px;
+  margin-right: 114px;
+  /* border: 1px solid yellow; */
+  pointer-events: none;
+  background: transparent url("../../logo.svg") 0% 0% no-repeat padding-box;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/* Auth Page heading */
+
+.auth-heading {
+  border: 1px solid forestgreen;
+
+  margin-top: 15px;
+
+  margin-left: 56px;
+  margin-right: 53px;
+  width: 318px;
+  height: 54px;
+  text-align: center;
+  font: normal normal normal 14px/18px Roboto;
+  letter-spacing: 0px;
+  color: #1a1a1a;
+  opacity: 1;
+}
+
+/* Auth Page  Form Container */
+.auth-form-container{
+  margin-top: 52px;
+}
+
+#login {
+ 
+  width: 40px;
+  height: 21px;
+  text-align: left;
+  font: normal normal bold 16px/17px Roboto;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 1;
+  margin-left: 92px;
+  /* margin-top: 40px; */
+  border: 1px solid red;
+  margin-right:151px;
+}
+
+#signup {
+ 
+  width: 49px;
+  height: 21px;
+  font-weight: 600;
+  text-align: left;
+  font: normal normal normal 16px/17px Roboto;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 1;
+}
+.login-signup{
+  
+}

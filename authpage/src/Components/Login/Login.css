@@ -1,0 +1,76 @@
+.login-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* email section css */
+#email {
+  width: 300px;
+  height: 50px;
+  background: #ffffff4d 0% 0% no-repeat padding-box;
+  border: 1px solid #1a1a1a;
+  border-radius: 26px;
+  opacity: 1;
+  /* padding: 13.8px 0  15.2px 25px; */
+  padding-left: 25px;
+  padding-top: 13.8px;
+  padding-bottom: 15.2px;
+  box-sizing: border-box;
+}
+
+#password {
+  width: 300px;
+  height: 50px;
+  background: #ffffff4d 0% 0% no-repeat padding-box;
+  border: 1px solid #1a1a1a;
+  border-radius: 26px;
+  opacity: 1;
+  box-sizing: border-box;
+  padding-left: 25px;
+  padding-top: 13.8px;
+  padding-bottom: 15.2px;
+  text-align: start;
+}
+
+#email::placeholder {
+  width: 102px;
+  height: 21px;
+  text-align: center;
+  font: normal normal normal 16px/17px Roboto;
+  letter-spacing: 0px;
+  color: #1a1a1a;
+  opacity: 0.56;
+  border: 1px solid green;
+}
+
+#password::placeholder {
+  width: 70px;
+  height: 21px;
+  text-align: center;
+  font: normal normal normal 16px/17px Roboto;
+  letter-spacing: 0px;
+  color: #1a1a1a;
+  opacity: 0.56;
+  border: 1px solid green;
+}
+
+#login-btn {
+  width: 300px;
+  height: 50px;
+  background: #e70b89 0% 0% no-repeat padding-box;
+  border-radius: 26px;
+  opacity: 1;
+}
+
+span h4 {
+  width: 113px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 14px/17px Roboto;
+  letter-spacing: 0px;
+  color: #e70b89;
+  opacity: 1;
+  float: right;
+}
