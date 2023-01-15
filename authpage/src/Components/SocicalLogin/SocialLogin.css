@@ -1,9 +1,8 @@
-
 /* social Login container css */
 .socialLogin-container {
   display: flex;
   flex-direction: column;
-  margin-top: 23px;
+  margin-top: 1.4375rem;
   align-items: center;
   justify-content: center;
 }
@@ -14,10 +13,10 @@
 }
 /* all icons  css */
 .socialLogin-icon-container {
-  margin-top: 21px;
-  left: 115px;
-  width: 200px;
-  height: 50px;
+  margin-top: 1.3125rem;
+  left: 7.1875rem;
+  width: 12.5rem;
+  height: 3.125rem;
   font-size: 2rem;
   justify-content: space-between;
   align-items: center;
@@ -27,18 +26,19 @@
 
 /* don't have an account section  css*/
 #acct-container {
-  margin-top: 23px;
+  margin-top: 1.4375rem;
 }
-
 
 /* terms and condition section  css*/
 #tnc {
-  margin:24px auto 58px ;
-  justify-content: center;
-  display: flex;
-  box-sizing: border-box;
+  margin: 1.5rem auto 58px;
+  width: 18.875rem;
+  height: 1rem;
+  text-align: center;
+  font: normal normal normal 0.75rem/1.0625rem Roboto;
+  letter-spacing: 0rem;
+  opacity: 1;
 }
-#tnc-line{
-  border-bottom: 1px solid red ;
- 
+#tnc-line {
+  border-bottom: 1px solid red;
 }
