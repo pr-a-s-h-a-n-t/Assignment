@@ -33,6 +33,12 @@
 
 /* terms and condition section  css*/
 #tnc {
-  margin-top: 24px;
-  margin-bottom: 58px;
+  margin:24px auto 58px ;
+  justify-content: center;
+  display: flex;
+  box-sizing: border-box;
+}
+#tnc-line{
+  border-bottom: 1px solid red ;
+ 
 }

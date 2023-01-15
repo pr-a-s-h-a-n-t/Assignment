@@ -17,8 +17,8 @@ function SocialLogin() {
         <span className="red"> Create new now!</span>
       </div>
       <div id="tnc">
-        <span>By signing up, you are agree with our </span>
-        <span className="red">Terms & Conditions</span>
+        <span>By signing up, you are agree with our</span>
+        <span className="red" id="tnc-line"> &nbsp;Terms & Conditions</span>
       </div>
     </div>
   );
