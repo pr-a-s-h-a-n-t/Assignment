@@ -1,6 +1,7 @@
 import React from "react";
 import "./Login.css";
-import SocialLogin from "../SocicalLogin/index"
+import SocialLogin from "../SocicalLogin/index";
+
 function LoginForm() {
   return (
     <>
@@ -19,12 +20,12 @@ function LoginForm() {
         </button>
       </div>
       <div>
-        <span>
+        <span id="forgot-password">
           <h4>Forgot Password</h4>
         </span>
       </div>
       <div className="SocialLogin-container">
-      <SocialLogin />
+        <SocialLogin />
       </div>
     </>
   );
